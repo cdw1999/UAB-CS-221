@@ -4,6 +4,7 @@ a {
 
 body {
   background-color: lightblue;
+  max-width: 500px;
 }
 
 h1 {
