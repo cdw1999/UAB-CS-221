@@ -1,4 +1,6 @@
-a {
+/* if you have visited a site the link will turn orange. wow */
+
+a:visited {
   text-decoration: orange;
 }
 
