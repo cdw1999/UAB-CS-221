@@ -71,18 +71,6 @@ body {
 }
 
 
-.sidebar-right {
-  vertical-align: top;
-  padding: 10px;
-  text-align: center;
-  display: inline-block;
-  flex: 0 0 100px;
-  overflow-y: hidden;
-  background-color: cadetblue;
-  border: 5px solid thistle;
-  width: 100px;
-  height: 95%;
-}
 
 
 .main {
