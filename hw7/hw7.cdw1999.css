@@ -1,0 +1,297 @@
+ body {
+     background-image: url(https://web.archive.org/web/20090725223313/http://www.geocities.com/arielpurkey/starstwinkle.gif);
+     background-repeat: repeat;
+ }
+
+ h1 {
+     color: aquamarine;
+     margin: auto;
+     text-align: center;
+     position: -webkit-sticky;
+     position: sticky;
+     top: 0;
+     background-color: rosybrown;
+     padding-bottom: 2px;
+     text-decoration: none;
+     font-weight: bold;
+     margin-bottom: 25px;
+     display: block;
+     box-shadow: 4px 4px rgba(0, 0, 0, 0.65);
+     border: none;
+
+
+ }
+
+ section {
+
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+ .child {
+     background-color: rgb(255, 255, 255);
+     border: 1px solid rgba(0, 0, 0, 0.8);
+     /**/
+     font-size: 30px;
+     text-align: center;
+     min-width: 300px;
+     min-height: 300px;
+     border-radius: 15px;
+     border-color: rosybrown;
+     border-width: 10px;
+
+
+ }
+
+
+ .container {
+     display: grid;
+     grid-template-columns: auto auto auto;
+     grid-template-rows: auto auto auto;
+     background-color: #211327;
+     padding: 10px;
+     gap: 15px;
+ }
+
+
+ .grid-container {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+     grid-template-rows: repeat(3, 300px);
+     gap: 1em;
+     width: 80%;
+ }
+
+ .container :nth-last-child(odd) {
+     border-style: outset;
+     border-color: aquamarine;
+
+ }
+
+ .child:hover {
+     scale: 1.05
+ }
+
+ .child:hover::after {
+     content: url(https://web.archive.org/web/20090903082454/http://geocities.com/nbs24434/anim/magnifier.gif);
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+
+ #one:hover::before {
+     content: "A road";
+     position: absolute;
+     top: 0;
+     background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, .6));
+     display: flex;
+     justify-content: center;
+     align-items: top;
+     font-size: 1em;
+     width: 100%;
+     height: 300px;
+     border-radius: 25px;
+     color: rgb(0, 0, 0);
+     text-shadow: none;
+ }
+
+ #two:hover::before {
+     content: "A whale";
+     position: absolute;
+     top: 0;
+     background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, .6));
+     display: flex;
+     justify-content: center;
+     align-items: top;
+     font-size: 1em;
+     width: 100%;
+     height: 300px;
+     border-radius: 25px;
+     color: rgb(0, 0, 0);
+     text-shadow: none;
+ }
+
+ #three:hover::before {
+     content: "A pyramid";
+     position: absolute;
+     top: 0;
+     background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, .6));
+     display: flex;
+     justify-content: center;
+     align-items: top;
+     font-size: 1em;
+     width: 100%;
+     height: 300px;
+     border-radius: 25px;
+     color: rgb(0, 0, 0);
+     text-shadow: none;
+ }
+
+ #four:hover::before {
+     content: "An owl";
+     position: absolute;
+     top: 0;
+     background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, .6));
+     display: flex;
+     justify-content: center;
+     align-items: top;
+     font-size: 1em;
+     width: 100%;
+     height: 300px;
+     border-radius: 25px;
+     color: rgb(0, 0, 0);
+     text-shadow: none;
+ }
+
+ #five:hover::before {
+     content: "Animals";
+     position: absolute;
+     top: 0;
+     background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, .6));
+     display: flex;
+     justify-content: center;
+     align-items: top;
+     font-size: 1em;
+     width: 100%;
+     height: 300px;
+     border-radius: 25px;
+     color: rgb(0, 0, 0);
+     text-shadow: none;
+ }
+
+ #six:hover::before {
+     content: "Murder";
+     position: absolute;
+     top: 0;
+     background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, .6));
+     display: flex;
+     justify-content: center;
+     align-items: top;
+     font-size: 1em;
+     width: 100%;
+     height: 300px;
+     border-radius: 25px;
+     color: rgb(0, 0, 0);
+     text-shadow: none;
+ }
+
+ #seven:hover::before {
+     content: "Art";
+     position: absolute;
+     top: 0;
+     background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, .6));
+     display: flex;
+     justify-content: center;
+     align-items: top;
+     font-size: 1em;
+     width: 100%;
+     height: 300px;
+     border-radius: 25px;
+     color: rgb(0, 0, 0);
+     text-shadow: none;
+ }
+
+ #eight:hover::before {
+     content: "Bulgaria";
+     position: absolute;
+     top: 0;
+     background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, .6));
+     display: flex;
+     justify-content: center;
+     align-items: top;
+     font-size: 1em;
+     width: 100%;
+     height: 300px;
+     border-radius: 25px;
+     color: rgb(0, 0, 0);
+     text-shadow: none;
+ }
+
+ #nine:hover::before {
+     content: "Coffee";
+     position: absolute;
+     top: 0;
+     background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, .6));
+     display: flex;
+     justify-content: center;
+     align-items: top;
+     font-size: 1em;
+     width: 100%;
+     height: 300px;
+     border-radius: 25px;
+     color: rgb(0, 0, 0);
+     text-shadow: none;
+ }
+
+
+
+ #one {
+     background-image: url(https://plus.unsplash.com/premium_photo-1665956066901-86d3352dfe60?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2574&q=80);
+     background-size: cover;
+     background-position: center;
+     content: "test"
+ }
+
+ #two {
+     background-image: url(https://web.archive.org/web/20091026235101im_/http://es.geocities.com/delfinburgos/ie-delfin150.gif);
+     background-size: cover;
+     background-position: center;
+
+ }
+
+ #three {
+     background-image: url(https://web.archive.org/web/20090903080817/http://geocities.com/pit_software/picts/software_crystmr_pyramid_ani.gif);
+     background-size: cover;
+     background-position: center;
+
+ }
+
+
+
+ #four {
+     background-image: url(https://images.unsplash.com/photo-1604605152447-1fcea1a333f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2574&q=80);
+     background-size: cover;
+     background-position: center;
+
+
+ }
+
+ #five {
+     background-image: url(https://cdn.discordapp.com/attachments/422795751681425429/1158226011083767808/IMG_3410.jpg?ex=651b7987&is=651a2807&hm=282b0fb42af4e74a3a240a71ae3dbfebe946f217db6c420424f665a69706dd84&);
+     background-size: cover;
+     background-position: center;
+
+
+
+ }
+
+ #six {
+     background-image: url(https://cdn.discordapp.com/attachments/422795751681425429/1158222143528648704/IMG_5952.jpg?ex=651b75ed&is=651a246d&hm=692eb804c64749439a46fef2122e571aceea7f4299234af1165725a8b24cc4ea&);
+     background-size: cover;
+     background-position: center;
+ }
+
+ #seven {
+     background-image: url(https://cdn.discordapp.com/attachments/1095891400773599272/1158222043897143456/crow2.png?ex=651b75d5&is=651a2455&hm=6dc953726845c3314a7e042435cdac5e2ff583a2e9b4abc57407d826666c9c7e&);
+     background-size: cover;
+     background-position: center;
+ }
+
+
+ #eight {
+     background-image: url(https://web.archive.org/web/20091027172630/http://geocities.com/pbaruh/bg-flag2.gif);
+     background-size: cover;
+     background-position: center;
+
+ }
+
+ #nine {
+     background-image: url(https://web.archive.org/web/20061004162055/http://www.geocities.com/Colosseum/Loge/6244/coffeemaker1.gif  );
+     background-size: cover;
+     background-position: center;
+
+ }
