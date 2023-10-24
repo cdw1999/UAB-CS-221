@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Grade-Based Treats </title>
+    <style>
+        * {
+            background-image: url(https://www.photos-public-domain.com/wp-content/uploads/2012/07/a-school-letter-grade.jpg);
+            background-size: cover;
+
+        }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+
+
+        let text;
+        let grade = prompt("Input a numerical grade :3");
+        console.log("Grade: " + grade);
+
+        switch (true) {
+            case grade > 100:
+                console.log("This is impossible. Cheater!")
+                break;
+            case grade >= 90:
+                console.log("Letter Grade: A\n");
+                console.log("You've earned: Candy!");
+                break;
+            case grade >= 80:
+                console.log("Letter Grade: B\n");
+                console.log("You've earned: Apple!");
+                break;
+            case grade >= 70:
+                console.log("Letter Grade: C\n");
+                console.log("You've earned: Mint!");
+                break;
+            case grade >= 60:
+                console.log("Letter Grade: D\n");
+                console.log("You've earned: Pencil!");
+                break;
+            case grade >= 50 || grade <= 50:
+                console.log("Letter Grade: F\n");
+                console.log("Awkward conversation with parents...");
+                break;
+            default:
+                console.log("The value you entered is not a number...");
+
+        }
+    </script>
+</head>
+
+</html>
